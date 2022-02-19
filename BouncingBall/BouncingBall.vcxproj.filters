@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\RealWrold">
+      <UniqueIdentifier>{016fc87f-88b5-47e4-835d-84615c9d06ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\RealWorld">
+      <UniqueIdentifier>{135018df-5cae-4418-8e39-772b91198b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Connecter">
+      <UniqueIdentifier>{62588323-f05c-4bed-a6df-4410c1dbdd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Connecter">
+      <UniqueIdentifier>{6ec2f71b-17fe-435e-99c0-663d56a0b5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shader">
+      <UniqueIdentifier>{bf50acd1-9e9a-4d4e-bee5-8afa215a6864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Puppet">
+      <UniqueIdentifier>{03682279-ab68-4426-b615-da2e63204ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Puppet">
+      <UniqueIdentifier>{9bed3d47-f3c3-4c90-bb9f-25a1ed06e604}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RealWorld.cpp">
+      <Filter>소스 파일\RealWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>소스 파일\RealWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\RealWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>소스 파일\RealWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>소스 파일\RealWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnecterR.cpp">
+      <Filter>소스 파일\Connecter</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteConnecterR.cpp">
+      <Filter>소스 파일\Connecter</Filter>
+    </ClCompile>
+    <ClCompile Include="Connecter.cpp">
+      <Filter>소스 파일\Connecter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMaster.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceSystem.cpp">
+      <Filter>소스 파일\RealWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Puppet.cpp">
+      <Filter>소스 파일\Puppet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RealWorld.h">
+      <Filter>헤더 파일\RealWrold</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>헤더 파일\RealWrold</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>헤더 파일\RealWrold</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>헤더 파일\RealWrold</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>헤더 파일\RealWrold</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnecterR.h">
+      <Filter>헤더 파일\Connecter</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteConnecterR.h">
+      <Filter>헤더 파일\Connecter</Filter>
+    </ClInclude>
+    <ClInclude Include="Connecter.h">
+      <Filter>헤더 파일\Connecter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMaster.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshConnecterR.h">
+      <Filter>헤더 파일\Connecter</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceSystem.h">
+      <Filter>헤더 파일\RealWrold</Filter>
+    </ClInclude>
+    <ClInclude Include="SizeValues.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Puppet.h">
+      <Filter>헤더 파일\Puppet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\Sprite.frag">
+      <Filter>소스 파일\Shader</Filter>
+    </None>
+    <None Include="Shader\Sprite.vert">
+      <Filter>소스 파일\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
